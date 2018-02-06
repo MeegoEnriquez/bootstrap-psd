@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400,500,600,700');
+
+
+body {
+	font-family: 'Cormorant Garamond', serif;
+}
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.navbar{
+
+	height: 126px;
+	border-top: 5px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+}
+.navbar-brand {
+	margin-top: 63px;
+	margin-bottom: 30px;
+	font-size: 20px;
+	font-weight: 700;
+    padding-right: 15px;
+}
+.logot {
+	font-size: 40px;
+	font-weight: 700;
+	margin-top: 52px;
+	margin-bottom: 30px;
+
+}
+.line {
+	font-size: 33px;
+	margin-top:52px;
+	margin-bottom: 30px;
+
+}
+.navbar li {
+	padding-top:53px;
+	padding-bottom: 33px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-weight: 600;
+
+
+}
+li:hover {
+	background-color: #eeeeee;
+	border-top: 5px solid #57bae8;
+	padding-top:36px;
+    
+	position: relative;
+	z-index: 99999;
+	top:12px;
+}
+
+ul {
+	margin-left: 82px;
+	padding-bottom:29px;
+
+}
+p {
+	font-size : 12px;
+	margin-top: 38px;
+	margin-left: 15px;
+	line-height: 10px;
+}
+h1 { 
+text-align: center;
+font-size : 38px;
+margin-top: 46px;
+ }
+h2 {
+text-align: center;
+color : #999999;
+font-size: 22px;
+}
+#main {
+	border-top: 5px solid #e2e2e2;
+	margin-top: 2px;
+}
+.carousel 
+ {
+ 	width: 100%;
+ 	height: auto;
+ 	padding-top: 30px;
+ 	padding-right: 20px;
+ 	padding-left: 20px;
+
+
+ }
+
+ #carouselExampleIndicators {
+ 	margin: 0 auto 15px;
+ }
+/* .carousel-indicators  {
+ 	position: relative;
+ 	margin-top: 10px;
+ 	height: 12px;
+ 	
+ } 
+ .carousel-indicators li {
+ 	background-color: #cecece;
+ 	font-color: #cecece;
+
+ 	
+ }*/
+
+
+
+
+/* THIS IS FOR THE FEATURE or CARDS*/
+#feature {
+	width: 100%;
+	margin-top: 50px;
+}
+.featHead{
+	font-weight: 700;
+	font-size: 26px;
+
+}
+.featHead img {
+	width: 14%;
+	height: auto;
+	margin-right: 14px;
+}
+.featBody p{
+	font-weight: 600;
+	font-size: 13px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	margin-left: 0px ;
+}
+
+
+.carousel-indicators li{
+	padding: 0;
+	border-radius: 50%;
+	border-color: #cecece;
+	height: 12px;
+	width: 12px;
+	background-color: #cecece;
+	margin-left: 10px;
+	top: 50px
+
+
+}
+.carousel-indicators li.active{
+	padding: 0;
+	border-radius: 50%;
+	border: 1.5px solid #000000;
+	height: 12px;
+	width: 12px;
+	background-color: #FFFFFF;
+	top: 50px
+
+}
+.feat1 {
+	height: 170px;
+	width: 295px;
+}
+.feat2 {
+	height: 170px;
+	width: 295px;
+}
+.feat3 {
+	height: 170px;
+	width: 295px;
+}
+
+
+#projtitle h1{
+	color: black;
+}
+#projtitle {
+	border-bottom: 1px solid #e2e2e2;
+	margin-bottom: 30px;
+}
+.projname {
+	border-bottom: 1px solid #e2e2e2;
+	margin-bottom: 50px;
+}
+.projname p{
+	margin-top: 10px;
+	font-size: 13px;
+}
+.projname h6{
+	margin-top: 10px;
+	font-size: 13px;
+}
+
+#projects img {
+	width: 100%;
+	height: auto;
+}
+
+#pre-footer {
+	font-size: 12px;
+	color: white;
+	background: #2c2f32;
+}
+.titles {
+	margin: 30px 0 20px;
+	font-weight: 200;
+}
+.contents {
+	margin: 0 0 0;
+	color : #afafaf;
+	margin-bottom: 35px;
+	line-height: 17px;
+	font-weight: 300;
+	
+}
+.divcontents {
+	margin: 0 0 0 0;
+	color : #afafaf;
+	margin-bottom: 15px;
+	line-height: 17px;
+	font-weight: 300;
+	margin-left: 9px;
+	
+
+
+}
+#divcontents {
+	border-bottom: 1px solid  #000000;
+}
+.borderunder {
+	border-bottom: 1px solid #000000;
+	margin-top: 15px;
+}
+
+
+
+
+#footer {
+	color: white;
+	background: #1f2224;
+}
+#latest1 img {
+	margin-left: 30px;
+	height: 46px;
+	width: 46px;
+	
+}
+
+#latest2 img {
+	margin-left: 30px;
+	height: 46px;
+	width: 46px;
+}
+
+#latest3 img {
+	margin-left: 30px;
+	height: 46px;
+	width: 46px;
+}
